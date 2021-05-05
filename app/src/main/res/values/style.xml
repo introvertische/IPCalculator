@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Header -->
+    <style name="HeaderTextViewStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 
+    <style name="HeaderSpinnerStyle">
+        <item name="android:background">@color/purple_200</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Body -->
+    <style name="BodyContainerHeaderStyle">
+        <item name="android:background">@color/purple_200</item>
+    </style>
+
+    <style name="BodyContainerTitleTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="BodyContainerStyle">
+        <item name="android:background">@color/m_gray_100</item>
+    </style>
+
+    <style name="BodyContainerTextStyle">
+        <item name="android:textColor">@color/m_brown_300</item>
+        <item name="android:textSize">16sp</item>
+    </style>
 </resources>
