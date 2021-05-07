@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- activity_main -->
     <!-- Header -->
     <style name="HeaderTextViewStyle">
         <item name="android:textColor">@color/white</item>
@@ -28,5 +29,10 @@
     <style name="BodyContainerTextStyle">
         <item name="android:textColor">@color/m_brown_300</item>
         <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- dialog_about -->
+    <style name="DialogAboutText">
+        <item name="android:textColor">@color/black</item>
     </style>
 </resources>

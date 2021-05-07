@@ -103,6 +103,7 @@
             android:id="@+id/btnCalculate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onClick"
             android:text="@string/button_calculate"
             android:textAllCaps="false"
             android:textSize="22sp"
