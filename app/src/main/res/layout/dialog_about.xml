@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autoLink="email"
-            android:text="@string/aboutEmail"
+            android:text="@string/about_email"
             android:textSize="16sp"/>
 
         <TextView
@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autoLink="web"
-            android:text="@string/aboutTelegram"
+            android:text="@string/about_telegram"
             android:textSize="16sp" />
 
     </LinearLayout>
@@ -59,7 +59,7 @@
         android:id="@+id/footerAbout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/aboutFooterText"
+        android:text="@string/about_footer_text"
         android:textAlignment="center"
         app:layout_constraintTop_toBottomOf="@id/bodyAbout"
         app:layout_constraintBottom_toBottomOf="parent"

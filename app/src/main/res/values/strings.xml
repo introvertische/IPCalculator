@@ -3,13 +3,13 @@
     <string name="app_version">Version 1.1b</string>
 
     <!-- Header -->
-    <string name="text_ip">IP address:</string>
+    <string name="text_ip">IP address:\u0020\</string>
     <string name="hint_ip_state_one">192.168.210.171</string>
     <string name="hint_ip_state_two">192.168.0.0</string>
-    <string name="switch_network_ip_address">Network IP address</string>
-    <string name="text_mask">Mask:</string>
-    <string name="text_id">ID:</string>
-    <string name="hint_id">10101</string>
+    <string name="switch_network_ip_address">Network IP</string>
+    <string name="text_mask">Mask:\u0020</string>
+    <string name="text_id">ID:\u0020</string>
+    <string name="hint_id">Enter the id</string>
     <string name="button_calculate">Calculate</string>
 
     <!-- Spinner array -->
@@ -50,13 +50,13 @@
     </string-array>
 
     <!-- Body -->
-    <string name="text_network_class">IP address class:\u0020</string>
-    <string name="text_network_ip_address">Network IP address:\u0020</string>
+    <string name="text_network_class">IP class:\u0020</string>
+    <string name="text_network_ip_address">Network IP:\u0020</string>
     <string name="text_subnet_node">Number of nodes:\u0020</string>
-    <string name="text_subnet">Number of subnets:\u0020</string>
-    <string name="text_first_ip_address">First IP address:\u0020</string>
-    <string name="text_last_ip_address">Last IP address:\u0020</string>
-    <string name="text_broadcast_address">Broadcast address:\u0020</string>
+    <string name="text_subnet">Number of subnet:\u0020</string>
+    <string name="text_first_ip_address">First IP:\u0020</string>
+    <string name="text_last_ip_address">Last IP:\u0020</string>
+    <string name="text_broadcast_address">Broadcast IP:\u0020</string>
 
     <!-- Container for decimal values -->
     <string name="dec_title_text">Title</string>
@@ -66,10 +66,10 @@
     <string name="action_about">About</string>
 
     <!-- About dialog -->
-    <string name="aboutTitle">About</string>
-    <string name="aboutEmail">Email: svyatradke@gmail.com</string>
-    <string name="aboutTelegram">Telegram: t.me/androvert</string>
-    <string name="aboutFooterText">© Svyatoslav Radke, 2021\nAll rights reserved</string>
-    <string name="aboutClose">Close</string>
+    <string name="about_title">About</string>
+    <string name="about_email">Email: svyatradke@gmail.com</string>
+    <string name="about_telegram">Telegram: t.me/androvert</string>
+    <string name="about_footer_text">© Svyatoslav Radke, 2021\nAll rights reserved</string>
+    <string name="about_close">Close</string>
 
 </resources>

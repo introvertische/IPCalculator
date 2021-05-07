@@ -38,6 +38,12 @@ public class IpCalculator {
         definingIdAndSubnetAddress();
     }
 
+    public IpCalculator(String ipAddress, String mask, String id) {
+        this(ipAddress, mask);
+        if (id != null)
+            binId = id;
+    }
+
     private boolean ipValidation(String ip) {
         Pattern ipTemplate = Pattern.compile(
                 "^([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\." +
