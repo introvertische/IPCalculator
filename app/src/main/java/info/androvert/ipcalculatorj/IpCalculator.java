@@ -34,7 +34,7 @@ public class IpCalculator {
         binIpAddress = ipValidation(ipAddress) ?
                 checkForElementSize(Converter.toBin(ipAddress.split("\\."))) :
                 checkForElementSize(Converter.toBin("0.0.0.0".split("\\.")));
-        binMask = Converter.toBin(mask.split(" – ")[1].split("\\."));
+        binMask = checkForElementSize(Converter.toBin(mask.split(" – ")[1].split("\\.")));
         definingIdAndSubnetAddress();
     }
 
