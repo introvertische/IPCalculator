@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainWindow"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -15,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent">
-        
+
         <TextView
             android:id="@+id/textIP"
             android:theme="@style/HeaderTextViewStyle"
@@ -26,10 +27,9 @@
             android:text="@string/text_ip"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
-        
+
         <EditText
             android:id="@+id/editTextIp"
-            android:theme="@style/HeaderTextViewStyle"
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -41,7 +41,7 @@
             android:textColor="@color/white"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
-        
+
         <Switch
             android:id="@+id/switchNetworkIp"
             android:layout_width="wrap_content"
@@ -52,7 +52,7 @@
             app:layout_constraintTop_toBottomOf="@id/textIP"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="UseSwitchCompatOrMaterialXml" />
-        
+
         <TextView
             android:id="@+id/textMask"
             android:theme="@style/HeaderTextViewStyle"
@@ -63,7 +63,7 @@
             android:text="@string/text_mask"
             app:layout_constraintTop_toBottomOf="@id/switchNetworkIp"
             app:layout_constraintStart_toStartOf="parent"/>
-        
+
         <Spinner
             android:id="@+id/spinnerMask"
             android:theme="@style/HeaderSpinnerStyle"
@@ -73,7 +73,7 @@
             android:entries="@array/spinner_mask"
             app:layout_constraintTop_toBottomOf="@id/switchNetworkIp"
             app:layout_constraintEnd_toEndOf="parent"/>
-        
+
         <TextView
             android:id="@+id/textId"
             android:theme="@style/HeaderTextViewStyle"
@@ -84,10 +84,9 @@
             android:text="@string/text_id"
             app:layout_constraintTop_toBottomOf="@id/textMask"
             app:layout_constraintStart_toStartOf="parent"/>
-        
+
         <EditText
             android:id="@+id/editTextId"
-            android:theme="@style/HeaderTextViewStyle"
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
@@ -113,9 +112,9 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"/>
-        
+
     </androidx.constraintlayout.widget.ConstraintLayout>
-    
+
     <!-- Body -->
     <ScrollView
         android:layout_width="match_parent"
@@ -123,6 +122,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:scrollbars="vertical"
         app:layout_constraintTop_toBottomOf="@id/header"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent">
@@ -136,7 +136,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:theme="@style/BodyContainerStyle"
                 android:layout_width="match_parent"
-                android:layout_height="210dp">
+                android:layout_height="wrap_content">
 
                 <!-- Title -->
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -228,7 +228,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:theme="@style/BodyContainerStyle"
                 android:layout_width="match_parent"
-                android:layout_height="190dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp">
 
                 <!-- Title -->
@@ -247,7 +247,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
-                        android:text="@string/dec_title_text"
+                        android:text="@string/bin_title_text"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintBottom_toBottomOf="parent"/>
@@ -310,8 +310,12 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="260dp" />
+
         </LinearLayout>
-        
+
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">IP Calculator</string>
-    <string name="app_version">Version 1.1b</string>
+    <string name="app_version">Version 1.4</string>
 
     <!-- Header -->
-    <string name="text_ip">IP address:\u0020\</string>
+    <string name="text_ip">IP:\u0020</string>
     <string name="hint_ip_state_one">192.168.210.171</string>
     <string name="hint_ip_state_two">192.168.0.0</string>
     <string name="switch_network_ip_address">Network IP</string>
@@ -59,7 +59,10 @@
     <string name="text_broadcast_address">Broadcast IP:\u0020</string>
 
     <!-- Container for decimal values -->
-    <string name="dec_title_text">Title</string>
+    <string name="dec_title_text">Decimal</string>
+
+    <!-- Container for binary values -->
+    <string name="bin_title_text">Binary</string>
 
     <!-- Menu -->
     <string name="action_settings">Settings</string>
@@ -71,5 +74,8 @@
     <string name="about_telegram">Telegram: t.me/androvert</string>
     <string name="about_footer_text">© Svyatoslav Radke, 2021\nAll rights reserved</string>
     <string name="about_close">Close</string>
+
+    <!-- MainActivity -->
+    <string name="error">An unexpected error occurred!</string>
 
 </resources>
